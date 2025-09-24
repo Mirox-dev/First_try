@@ -15,6 +15,7 @@ struct Expense
     float amount;      // Сумма расхода в рублях
 };
 
+
 // Глобальный массив для хранения всех расходов
 Expense expenses[MAX_EXPENSES];
 int expenseCount = 0; // Текущее количество записей расходов
